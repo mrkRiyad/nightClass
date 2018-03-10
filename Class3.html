@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 3</title>
+    <style>
+        .main {
+
+        }
+        #a {
+            color: rebeccapurple;
+        }
+        .a1 {
+            color:peru;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p class="a1">Lorem ipsum dolor sit amet.</p>
+        <p class="a1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+
+        <p id="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quasi.</p>
+
+        <h1 class="a1">Lorem, ipsum dolor.</h1>
+
+        <input type="text" name="firstName" id="display" onkeypress="return false"><br><br>
+        <button id="btn1" onclick="numberFn(1)">1</button>
+        <button id="btn2" onclick="numberFn(2)">2</button>
+        <button id="btn3" onclick="numberFn(3)">3</button>
+        <button id="btn4" onclick="numberFn(4)">4</button> <br>
+        <button id="btn-plus" onclick="numberFn('+')">+</button>
+        <button id="btn-sub" onclick="numberFn('-')">-</button>
+        <button id="btn-equal" onclick="equalFn()">=</button>
+        <button id="btn-clear" onclick="clearFn()">C</button>
+
+    </div>
+
+    <script>
+        function numberFn(num) {
+            document.getElementById('display').value += num;
+        }
+        function equalFn() {
+            var result = document.getElementById('display').value;
+            //console.log(result);
+            var total = eval(result);
+            //console.log(total);
+
+            document.getElementById('display').value = total;
+        }
+        function clearFn() {
+            document.getElementById('display').value = '';
+        }
+
+
+        var a = 10;
+        a = 10 + 20;
+        var b = a;
+    </script>
+</body>
+</html>
