@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    background: #DFD48E;
+}
+h3 {
+	color: #333;
+	font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.main {
+    width: 970px;
+    margin: 0 auto;
+}
+.siteHeader {
+    background: #BADA47;
+    height: 170px;
+}
+.headerContent {
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+.siteBody {
+    background: #EFE8C4;
+    padding: 10px;
+    margin-top: 5px;
+}
+.menu {
+	background: #E9E6CB;
+	border: 1px solid #ddd;
+	border-bottom: none;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+	padding: 10px 57px;
+	display: block;
+	text-decoration: none;
+	color: #222;
+}
+.mainContent {
+    margin-top: 20px;
+}
+.sidebar {
+    width: 250px;
+    float: left;
+    margin-right: 15px;
+    border-right: 1px solid #333;
+}
+.singleSidebar {}
+.singleSidebar h3 {
+	background: #D0D469;
+	padding: 8px;
+    width: 225px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.singleSidebar ul {
+	list-style-image: url(../PSD.jpg);
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+.singleSidebar ul li a {
+	color: #333;
+	line-height: 26px;
+}
+.singleSidebar p {
+    margin-bottom: 10px;
+}
+.content {
+    float: left;
+    width: 670px;
+    padding-right: 14px;
+}
+.contetnTop {
+    padding: 20px 0;
+}
+.contentBottom {}
+.contentLeft,
+.contentRight {
+    float: left;
+    width: 320px;
+}
+.contentRight {
+    margin-left: 14px;
+    border-left: 1px solid #333;
+    padding-left: 15px;
+}
+.btn {
+	text-decoration: none;
+	background: #BBD948;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #333;
+	font-weight: bold;
+	margin-top: 20px;
+	border: 1px solid #666;
+}
+.siteFooter {
+    background: #BADA47;
+    padding: 15px;
+    margin-top: 20px;
+}
+.siteFooter p {
+    text-align: center;
+}
+
+
+.header {
+    background: #000;
+    color: #fff;
+}
+.section1 {
+    background: #fff;
+    
+}
+.slider {
+    background: darkblue;
+    color: #fff;
+}
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
